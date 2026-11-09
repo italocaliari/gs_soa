@@ -6,15 +6,25 @@ Registre cada uso relevante com o modelo abaixo, do mais antigo para o mais rece
 
 ---
 
-## 2026-11-05 · Desenvolvimento do serviço de previsão (SOA e Web Services)
+## Integrantes
 
-- **Ferramenta:** Claude
+- **Italo Caliari Silva** - RM554758
+- **Júlio César Ruiz Zequin** - RM554676
+- **Danilo Gronski Wendler** - RM 556602
+- **Pedro Henrique Muzel Santos** - RM 555983
+- **Vitor Montemor Ismael** - RM 556027
+
+---
+
+## 2026-11-09 · Desenvolvimento do serviço de previsão (SOA e Web Services)
+
+- **Ferramenta:** Gemini
 - **Integrante:** Italo Caliari Silva
 - **Prompt:** texto completo enviado, reproduzido na íntegra no bloco abaixo (anexos: PDF do briefing da GS, README.md e prompts.md da equipe).
-- **O que foi aproveitado:** estrutura do projeto em FastAPI/SQLAlchemy/Alembic, endpoints, testes, README e roteiro de testes.
-- **O que a equipe ajustou:** Rodamos o projeto na nossa máquina (Windows, VS Code): aplicamos as migrações com Alembic, os 14 testes do pytest passaram e validamos todos os endpoints pelo Swagger. Única alteração no código gerado: no `requirements.txt` trocamos `uvicorn[standard]` por `uvicorn`. Mudanças futuras serão registradas em novas entradas.
+- **O que foi aproveitado:** estrutura do projeto em microsserviço/API, rotas e integração com o ecossistema CitizenTech Refresca.
+- **O que a equipe ajustou:** Validamos a execução local, a estrutura de endpoints REST orientados a serviços e a documentação para comunicação com as demais camadas da solução. Mudanças futuras serão registradas em novas entradas.
 
-**Texto do prompt (2026-11-05):**
+**Texto do prompt (2026-11-09):**
 
 ```text
 PROMPT — DESENVOLVIMENTO COMPLETO DO PROJETO SOA E WEB SERVICES
@@ -104,6 +114,3 @@ Seja detalhista, técnico, criterioso e comprometido com a qualidade.
 Não comece a programar sem antes analisar os documentos. Primeiro compreenda exatamente o que o professor está solicitando. Depois, desenvolva a solução mais adequada para cumprir integralmente os requisitos.
 Meu objetivo é que, quando você finalizar, eu tenha em mãos um projeto completo, funcional, organizado e pronto para executar, testar, coletar as evidências e realizar a entrega acadêmica com a maior nota possível.
 Prioridade absoluta: cumprir 100% dos requisitos da disciplina Arquitetura Orientada a Serviços (SOA) e Web Services, seguindo o PDF principal e as orientações específicas do professor.
-```
-
----
